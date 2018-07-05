@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name" translatable="false">StudyAbroad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_first_step">StudyAbroad</string>
+    <string name="title_activity_second_step">StudyAbroad</string>
+    <string name="title_activity_third_step">StudyAbroad</string>
+    <string name="collegeBoard_text">Visit College Board</string>
+    <string name="collegeView_text">Visit CollegeView</string>
+    <string name="educations.com_text">Visit Educations.com</string>
+    <string name="title_activity_fourth_step">StudyAbroad</string>
+    <string name="step4_subhead">Common Requirements</string>
+    <string name="title_activity_fifth_step">StudyAbroad</string>
+    <string name="essay_guide1">Tips for college essays</string>
+    <string name="title_activity_sixth_step">StudyAbroad</string>
+    <string name="usa_visa">US Student Visa</string>
+    <string name="canada_visa">Canada Study Permit</string>
+    <string name="australia_visa">Australia Student Visa</string>
+    <string name="uk_visa">UK Student Visa</string>
+    <string name="step6_subhead">Links to immigration websites</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_end">EndActivity</string>
+    <string name="end_activity_title">Congratulations!</string>
+    <string name="end_activity_subtitle">You made it!</string>
+    <string name="share_button">Share</string>
+    <string name="done_button">done</string>
+    <string name="nextStep_button">next step</string>
+    <string name="start_button">"Let's get started!"</string>
+    <string name="navDrawer_title">Navigation</string>
+    <string name="checkBox_text">"Please follow the step and check this box before continuing to the Next Step"</string>
+    <string name="share_intent">"Hey! I am using this app to help me apply for studies abroad. Click the link below to check it out!\n\nhttps://play.google.com/store/apps/details?id=com.zedTech.zeeshanamin3.studyabroad"</string>
+
+    <string name="start_title">"Welcome to the StudyAbroad Guide!"</string>
+    <string name="step1_title">Step 1</string>
+    <string name="step2_title">Step 2</string>
+    <string name="step3_title">Step 3</string>
+    <string name="step4_title">Step 4</string>
+    <string name="step5_title">Step 5</string>
+    <string name="step6_title">Step 6</string>
+
+    <string name="step1_subtitle">Majors</string>
+    <string name="step2_subtitle">Preferences</string>
+    <string name="step3_subtitle">College Search</string>
+    <string name="step4_subtitle">Fact Finding</string>
+    <string name="step5_subtitle">Application</string>
+    <string name="step6_subtitle">Study Visa</string>
+
+    <string-array name="navDrawerListItems">
+        <item>Majors</item>
+        <item>Preferences</item>
+        <item>College Search</item>
+        <item>Fact Finding</item>
+        <item>Application</item>
+        <item>Study Visa</item>
+    </string-array>
+
+    <string name="start_body">"Applying for admission in universities can be a lengthy and difficult process. This app is a step-by-step guide to get you started on the right track towards your dream college.\n\nThis guide is tailored for international students however all basics are covered for domestic students as well. So what are you waiting for?"</string>
+    <string name="step1_body">"Decide on your major(s)! Even though most colleges have a variety of programs to accommodate various degrees, each specialize in a particular discipline.\n\nThis would help you narrow down the list of prospective colleges you will apply for. Check the box below when you are done."</string>
+    <string name="step2_body">What are your preferences? There are lots of factors when trying to decide on which university is best for you.\n\nThe most important one being whether the college offers the discipline you intend to study. But other than that ask yourself these questions:</string>
+    <string name="step3_body">"The best tool available to find the perfect school is the internet but Googling &quot;Universities&quot; will display tons and tons of results which can be overwhelming and quite difficult to navigate.\n\nThere are a few college search engines which help you filter out the ones that don't meet your preferences and also provide additional info about each school."</string>
+    <string name="step3_body2">Listed below are some of the popular college search engines. Be sure to select 3 or 4 prospective universities. Feel free to click on them to start your search for the perfect college!"</string>
+    <string name="step4_body">"So now that you have selected a few universities, it's time to go on a Fact Finding mission! Before you begin your application you have to find out the requirements for the program you intend to get in.\n\nDifferent programs have different requirements and even those requirements might vary among the few colleges you selected in the previous step."</string>
+    <string name="step5_body">"Now it's time for the most important step! Applying for international admission usually requires you to fill an online form and submit it along with the application fee.\n\nQuestion is when should you apply? A good practice for international applicants is to apply 5/6 months before the Application Deadline. This measure ensures your application is processed earlier, giving you more time to fulfill the other requirements and send your transcripts.\n\nBear in mind that if you have any confusion or queries along the way, you can always email the enrollment services at the college you are applying for.\n\nThe application itself mostly asks for your personal information along with the term and program you are applying for. This is the usual format for most universities but many (such as the ones in US) also ask you to submit an Essay with your application.\n\nA link has been included below which gives some good essay writing tips!"</string>
+    <string name="step6_body">"This is the final step in turning a new chapter of your life. Once you get your letter of acceptance after completing all the requirements your college states, it would be time to arrange for a study permit.\n\nPlease note that not all international students require a study permit to attend university! You can find more info about whether you require a study permit in the respective country's immigration website.\n\nThese websites also include the steps for acquiring a study permit and other necessary guidelines."</string>
+    <string name="end_body">"Hopefully this guide has helped you accomplish your goals and set you on your way to your dream college.\n\nNow that you have become well acquainted with the process of applying to a university abroad. Why not share this app with your friends? Use the Share Button below."</string>
+
+
+    <string name="step1_checkbox">I have decided which majors I want to pursue!</string>
+    <string name="step2_checkbox">I have considered my preferences!</string>
+    <string name="step3_checkbox">I have found the perfect college(s) for me!</string>
+    <string name="step4_checkbox">"I have found out and compared all the requirements!"</string>
+    <string name="step5_checkbox">I have completed and submitted my application!</string>
+
+
+
+
+    <string name="step2_bullet1">"&#8226; Do I want to study in a specific province/city/location?"</string>
+    <string name="step2_bullet2">"&#8226; How much tuition can I afford to pay every year?"</string>
+    <string name="step2_bullet3">"&#8226; Is my current Academic performance in good standing?"</string>
+    <string name="step2_bullet4">"&#8226; Do I need to prove my proficiency in English via tests such as IELTS, TOEFL etc?"</string>
+    <string name="step2_bullet5">"All the above factors will affect your chances of getting an admission in a post secondary institution."</string>
+    <string name="step4_bullet1">SAT or ACT Tests</string>
+    <string name="step4_bullet2">English Proficiency Tests like IELTS or TOEFL</string>
+    <string name="step4_bullet3">Academic Transcripts (May have to include a credential evaluation</string>
+    <string name="step4_bullet4">Application Fee</string>
+    <string name="step4_bullet5">All the requirements must be completed and submitted before their respective DEADLINES! Be sure to find those out.</string>
+
+    <string name="step4_searchBox">"Use the search box below to find Info about the Requirements and other things regarding admission within the college's website."</string>
+    <string name="step4_webHint">"Enter the college's website eg: 'www.ualberta.ca'"</string>
+    <string name="search_button">Perform Search</string>
+    <string name="step4_keyHint">"Enter keyword eg: 'International Admission'"</string>
+
+    <string name="web_keyword">Please enter a correct website</string>
+    <string name="search_keyword">Please enter a correct Keyword</string>
+
+
+    <string name="start_banner_ad_unit_id">ca-app-pub-3543237615533993/2071411468</string>
+    <string name="first_banner_ad_unit_id">ca-app-pub-3543237615533993/2211012260</string>
+    <string name="second_banner_ad_unit_id">ca-app-pub-3543237615533993/3687745461</string>
+    <string name="third_banner_ad_unit_id"> ca-app-pub-3543237615533993/5164478668</string>
+    <string name="fourth_banner_ad_unit_id">ca-app-pub-3543237615533993/6641211862</string>
+    <string name="fifth_banner_ad_unit_id">ca-app-pub-3543237615533993/8117945066</string>
+    <string name="sixth_banner_ad_unit_id"> ca-app-pub-3543237615533993/9594678267</string>
+    <string name="end_banner_ad_unit_id">ca-app-pub-3543237615533993/3548144664</string>
+
+
+
+</resources>
