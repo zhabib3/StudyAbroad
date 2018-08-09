@@ -16,6 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#EEEEEE"
             android:orientation="vertical"
             tools:context="com.zedTech.zeeshanamin3.StudyAbroad.FourthStep">
 
@@ -91,11 +92,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#00BCD4"
                 android:fontFamily="sans-serif-light"
                 android:padding="20dp"
                 android:text="@string/step4_body"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
 
@@ -114,67 +114,62 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#AA00FF"
                 android:fontFamily="sans-serif-medium"
                 android:paddingBottom="20dp"
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:paddingTop="20dp"
                 android:text="@string/step4_bullet1"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#3D5AFE"
                 android:fontFamily="sans-serif-medium"
                 android:paddingBottom="20dp"
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:paddingTop="20dp"
                 android:text="@string/step4_bullet2"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FF7043"
                 android:fontFamily="sans-serif-medium"
                 android:paddingBottom="20dp"
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:paddingTop="20dp"
                 android:text="@string/step4_bullet3"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#78909C"
                 android:fontFamily="sans-serif-medium"
                 android:paddingBottom="20dp"
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:paddingTop="20dp"
                 android:text="@string/step4_bullet4"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#EF5350"
                 android:fontFamily="sans-serif-medium"
                 android:paddingBottom="20dp"
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:paddingTop="20dp"
                 android:text="@string/step4_bullet5"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
 
@@ -220,8 +215,11 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:onClick="performSearch"
+                    android:textSize="12sp"
+                    android:background="#006064"
+                    android:padding="5dp"
                     android:text="@string/search_button"
-                    android:textColor="#006064" />
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
 

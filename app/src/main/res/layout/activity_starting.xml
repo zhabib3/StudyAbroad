@@ -9,7 +9,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#B2EBF2">
+        android:background="#EEEEEE">
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
@@ -25,14 +25,15 @@
                 android:src="@drawable/graduation_pic"
                 />
 
-            <TextView android:layout_width="wrap_content"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="12dp"
-                android:fontFamily="sans-serif-light"
                 android:text="@string/start_title"
                 android:textColor="#424242"
-                android:textSize="24sp"/>
+                android:textSize="24sp"
+                ads:fontFamily="sans-serif" />
 
             <LinearLayout
                 android:layout_width="match_parent"

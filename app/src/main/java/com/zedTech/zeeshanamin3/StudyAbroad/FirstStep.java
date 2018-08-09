@@ -39,9 +39,10 @@ public class FirstStep extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
     }
+
     private void addDrawerItems() {
         Resources res = getResources();
-        String[] navDrawerArray = res. getStringArray(R.array.navDrawerListItems);
+        String[] navDrawerArray = res.getStringArray(R.array.navDrawerListItems);
         mAdapter = new ArrayAdapter<String>(this, R.layout.custom_list, navDrawerArray);
         StepNavList.setAdapter(mAdapter);
 
@@ -92,8 +93,6 @@ public class FirstStep extends AppCompatActivity {
 
         });
     }
-
-
 
 
     private void setupDrawer() {
@@ -151,30 +150,29 @@ public class FirstStep extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    /*
-    This method is initiated if the Next Step Button is clicked
 
-     */
-
-
-        public void nextStep(View view) {
-            Resources res = getResources();
-            String checkBoxText = res.getString(R.string.checkBox_text);
-            CheckBox firstStepCheckbox = (CheckBox) findViewById(R.id.first_step_checkbox);
-            if (firstStepCheckbox.isChecked() == false) {
-                CheckBox firstStepCheckBox = (CheckBox) findViewById(R.id.first_step_checkbox);
-                firstStepCheckBox.setText(checkBoxText);
-            }
-
-              else {
-                //Starts the SecondStep Activity
-                    Intent intent = new Intent(this, SecondStep.class);
-                    startActivity(intent);
-                }
-
-
-            }
+    //  OnClick handler for next step button
+    public void nextStep(View view) {
+        Resources res = getResources();
+        String checkBoxText = res.getString(R.string.checkBox_text);
+        CheckBox firstStepCheckbox = findViewById(R.id.first_step_checkbox);
+        if (!firstStepCheckbox.isChecked()) {
+            firstStepCheckbox.setText(checkBoxText);
+        } else {
+            //  Starts the SecondStep Activity
+            Intent intent = new Intent(this, SecondStep.class);
+            startActivity(intent);
         }
+
+    }
+
+    // OnClick handler for majors button
+    public void viewMajors(View view) {
+        // Start the majors activity
+        Intent intent = new Intent(this, MajorsActivity.class);
+        startActivity(intent);
+    }
+}
 
 
 

@@ -31,7 +31,7 @@
     <string name="checkBox_text">"Please follow the step and check this box before continuing to the Next Step"</string>
     <string name="share_intent">"Hey! I am using this app to help me apply for studies abroad. Click the link below to check it out!\n\nhttps://play.google.com/store/apps/details?id=com.zedTech.zeeshanamin3.studyabroad"</string>
 
-    <string name="start_title">"Welcome to the StudyAbroad Guide!"</string>
+    <string name="start_title">"Welcome to the StudyAbroad!"</string>
     <string name="step1_title">Step 1</string>
     <string name="step2_title">Step 2</string>
     <string name="step3_title">Step 3</string>
@@ -73,8 +73,6 @@
     <string name="step5_checkbox">I have completed and submitted my application!</string>
 
 
-
-
     <string name="step2_bullet1">"&#8226; Do I want to study in a specific province/city/location?"</string>
     <string name="step2_bullet2">"&#8226; How much tuition can I afford to pay every year?"</string>
     <string name="step2_bullet3">"&#8226; Is my current Academic performance in good standing?"</string>
@@ -103,7 +101,6 @@
     <string name="fifth_banner_ad_unit_id">ca-app-pub-3543237615533993/8117945066</string>
     <string name="sixth_banner_ad_unit_id"> ca-app-pub-3543237615533993/9594678267</string>
     <string name="end_banner_ad_unit_id">ca-app-pub-3543237615533993/3548144664</string>
-
 
 
 </resources>

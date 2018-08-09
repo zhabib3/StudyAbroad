@@ -16,17 +16,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#EEEEEE"
             android:orientation="vertical"
             tools:context="com.zedTech.zeeshanamin3.StudyAbroad.FirstStep">
-
-
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
-                android:orientation="horizontal"
-                >
+                android:orientation="horizontal">
 
 
                 <ImageView
@@ -35,7 +33,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:padding="12dp"
-                    android:src="@drawable/musician_banner"/>
+                    android:src="@drawable/musician_banner" />
 
                 <ImageView
                     android:id="@+id/medical_image"
@@ -43,8 +41,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:padding="12dp"
-                    android:src="@drawable/medical_banner"
-                    />
+                    android:src="@drawable/medical_banner" />
 
                 <ImageView
                     android:id="@+id/business_image"
@@ -52,8 +49,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:padding="12dp"
-                    android:src="@drawable/business_banner"
-                    />
+                    android:src="@drawable/business_banner" />
 
                 <ImageView
                     android:id="@+id/pilot_image"
@@ -61,8 +57,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:padding="12dp"
-                    android:src="@drawable/pilot_banner"
-                    />
+                    android:src="@drawable/pilot_banner" />
             </LinearLayout>
 
             <TextView
@@ -76,8 +71,7 @@
                 android:text="@string/step1_title"
                 android:textAllCaps="true"
                 android:textColor="@android:color/white"
-                android:textSize="56sp"
-                />
+                android:textSize="56sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -92,20 +86,16 @@
                 android:text="@string/step1_subtitle"
                 android:textAllCaps="true"
                 android:textColor="@android:color/white"
-                android:textSize="24sp"
-                />
-
-
-
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#00BCD4"
+                android:background="#EEEEEE"
                 android:fontFamily="sans-serif-light"
                 android:padding="20dp"
                 android:text="@string/step1_body"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
             <CheckBox
@@ -116,7 +106,18 @@
                 android:fontFamily="sans-serif-light"
                 android:padding="12dp"
                 android:text="@string/step1_checkbox"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:background="#006064"
+                android:onClick="viewMajors"
+                android:text="View Majors"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
 
             <Button
                 android:layout_width="200dp"
@@ -127,8 +128,7 @@
                 android:onClick="nextStep"
                 android:text="@string/nextStep_button"
                 android:textColor="@android:color/white"
-                android:textSize="14sp"
-                />
+                android:textSize="14sp" />
 
 
         </LinearLayout>

@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zedTech.zeeshanamin3.StudyAbroad"
-    >
+    package="com.zedTech.zeeshanamin3.StudyAbroad">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
-            android:name="com.zedTech.zeeshanamin3.StudyAbroad.StartingActivity"
-            android:label="@string/app_name" >
+            android:name=".StartingActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,33 +17,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.zedTech.zeeshanamin3.StudyAbroad.FirstStep"
-            android:label="StudyAbroad" >
-        </activity>
+            android:name=".FirstStep"
+            android:label="StudyAbroad"></activity>
         <activity
-            android:name="com.zedTech.zeeshanamin3.StudyAbroad.SecondStep"
-            android:label="StudyAbroad" >
-        </activity>
+            android:name=".SecondStep"
+            android:label="StudyAbroad"></activity>
         <activity
-            android:name="com.zedTech.zeeshanamin3.StudyAbroad.ThirdStep"
-            android:label="@string/title_activity_third_step" >
-        </activity>
+            android:name=".ThirdStep"
+            android:label="@string/title_activity_third_step"></activity>
         <activity
-            android:name="com.zedTech.zeeshanamin3.StudyAbroad.FourthStep"
-            android:label="@string/title_activity_fourth_step" >
-        </activity>
+            android:name=".FourthStep"
+            android:label="@string/title_activity_fourth_step"></activity>
         <activity
-            android:name="com.zedTech.zeeshanamin3.StudyAbroad.FifthStep"
-            android:label="@string/title_activity_fifth_step" >
-        </activity>
+            android:name=".FifthStep"
+            android:label="@string/title_activity_fifth_step"></activity>
         <activity
-            android:name="com.zedTech.zeeshanamin3.StudyAbroad.SixthStep"
-            android:label="@string/title_activity_sixth_step" >
-        </activity>
+            android:name=".SixthStep"
+            android:label="@string/title_activity_sixth_step"></activity>
         <activity
-            android:name="com.zedTech.zeeshanamin3.StudyAbroad.EndActivity"
-            android:label="StudyAbroad" >
-        </activity>
+            android:name=".EndActivity"
+            android:label="StudyAbroad"></activity>
+        <activity android:name=".MajorsActivity"></activity>
     </application>
 
 </manifest>
